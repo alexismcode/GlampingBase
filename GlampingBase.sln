@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlampingContent", "GlampingContent\GlampingContent.csproj", "{E4FFE974-4711-4FC5-88CB-A72A4A711466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlampingContent.Logica", "GlampingContent.Logica\GlampingContent.Logica.csproj", "{CD18A577-BB16-4137-9F6D-3D4919CBC1D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4FFE974-4711-4FC5-88CB-A72A4A711466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4FFE974-4711-4FC5-88CB-A72A4A711466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4FFE974-4711-4FC5-88CB-A72A4A711466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4FFE974-4711-4FC5-88CB-A72A4A711466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD18A577-BB16-4137-9F6D-3D4919CBC1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD18A577-BB16-4137-9F6D-3D4919CBC1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD18A577-BB16-4137-9F6D-3D4919CBC1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD18A577-BB16-4137-9F6D-3D4919CBC1D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8C9C0D5-29B5-4362-A0A4-5B33BF7950F7}
+	EndGlobalSection
+EndGlobal
