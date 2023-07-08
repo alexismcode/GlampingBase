@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOPConcepts.Logica
+namespace GlampingContent.Logica
 {
     public class Date
     {
@@ -53,7 +53,7 @@ namespace OOPConcepts.Logica
         {
             if (year < 0)
             {
-                throw new ArgumentException("Año no valido");
+                throw new ArgumentException("Año inválido");
             }
             return year;
         }
@@ -62,7 +62,7 @@ namespace OOPConcepts.Logica
         {
             if (month < 1 || month > 12)
             {
-                throw new ArgumentException("Mes no valido");
+                throw new ArgumentException("Mes inválido");
             }
             return month;
         }
@@ -88,7 +88,7 @@ namespace OOPConcepts.Logica
                 return day;
             }
 
-            throw new ArgumentException("Dia no valido");
+            throw new ArgumentException("Dia inválido");
         }
 
         private bool IsLeapYear(int year)
